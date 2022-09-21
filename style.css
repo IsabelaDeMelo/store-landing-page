@@ -1,0 +1,128 @@
+/*
+Cores:
+#F4EEF9 branco
+#121846 fundo - azul escuro
+#3234D0 azul claro
+#6F184B vermelho // alter #701C2B
+#011D71 azul escuro
+#9C2C93 roxo
+<a target="_blank" href="https://icons8.com/icon/8386/shopping-bag">Shopping Bag</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/62giybpMlD07/chat">Chat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+
+
+body {
+    background-color: #00010c;
+   
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #55547425;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+button {
+    margin: 20px;
+    color: #00010c;
+    border-radius: 7px;
+    padding: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
+    border-style: none;
+}
+
+.design-botao1 {
+    background-image: linear-gradient(to right, #D268C9, white);
+}
+
+.design-botao2 {
+    background-image: linear-gradient(to right, #354E9F, white);
+}
+
+.design-botao3 {
+    background-image: linear-gradient(to right, #53AC7B, white);
+}
+
+.design-botao1:hover {
+    background-image:none;
+    background-color: #D268C9;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition-duration: 0.8s;
+}
+
+.design-botao2:hover {
+    background-image:none;
+    background-color: #354E9F;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition-duration: 0.8s;
+}
+
+.design-botao3:hover {
+    background-image:none;
+    background-color: #53AC7B;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition-duration: 0.8s;
+}
+
+.cor-bloco1 {
+    box-shadow: 2px 3px 8px 1px #a0579a49;
+}
+
+.cor-bloco2 {
+    box-shadow: 2px 3px 8px 1px #073cec62;
+}
+
+.cor-bloco3 {
+    box-shadow: 2px 3px 8px 1px #4d946d49;
+}
+
+.cor-bloco1:hover {
+    box-shadow: 2px 3px 8px 5px #ce1ebf49;
+    transition-duration: 0.3s;
+}
+
+.cor-bloco2:hover {
+    box-shadow: 2px 3px 8px 5px #073cec62;
+    transition-duration: 0.3s;
+}
+
+.cor-bloco3:hover {
+    box-shadow: 2px 3px 8px 5px #1bcc6a49;
+    transition-duration: 0.3s;
+}
